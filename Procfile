@@ -1,1 +1,1 @@
-web: gunicorn --pythonpath indiaware indiaware.wsgi --log-file -
+web: gunicorn --pythonpath project-name project-name.wsgi --log-file -
