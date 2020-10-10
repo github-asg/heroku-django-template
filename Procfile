@@ -1,0 +1,1 @@
+web: gunicorn --pythonpath indiaware indiaware.wsgi --log-file -
